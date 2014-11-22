@@ -1,0 +1,24 @@
+{
+    "name": "zkspanel/gringotts",
+    "type": "phpbb-extension",
+    "description": "Gringott's Bank for Zonko's",
+    "homepage": "https://github.com/JuarezTurrini/gringotts_bank",
+    "version": "0.0.1",
+    "time": "2014-11-13",
+    "license": "GPL-2.0",
+    "authors": [{
+        "name": "Juarez Turrini",
+        "email": "juarez.turrini@gmail.com",
+        "homepage": "https://github.com/JuarezTurrini",
+        "role": "Just an enthusiast"
+    }],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Gringott's Bank",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.0-RC2,<3.2.*@dev"
+        }
+    }
+}

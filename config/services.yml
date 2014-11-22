@@ -1,0 +1,15 @@
+services:
+    zkspanel.gringotts.controller:
+        class: zkspanel\gringotts\controller\main
+        arguments:
+            - @config
+            - @controller.helper
+            - @template
+            - @user
+    zkspanel.gringotts.listener:
+        class: zkspanel\gringotts\event\main_listener
+        arguments:
+            - @controller.helper
+            - @template
+        tags:
+            - { name: event.listener }

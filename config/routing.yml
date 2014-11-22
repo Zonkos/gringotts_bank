@@ -1,0 +1,3 @@
+zkspanel_gringotts_controller:
+    pattern: /gringotts/{name}
+    defaults: { _controller: zkspanel.gringotts.controller:handle }

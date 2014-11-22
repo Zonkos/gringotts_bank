@@ -1,0 +1,97 @@
+<!-- INCLUDE overall_header.html -->
+
+<h1>{L_SETTINGS}</h1>
+
+<form id="acp_board" method="post" action="{U_ACTION}">
+    <fieldset>
+
+        <dl>
+            <dt><label for="gringotts_absence_time">{L_GRINGOTTS_ABSENCE_TIME}</label><span>{L_GRINGOTTS_ABSENCE_TIME_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_absence_time" id="gringotts_absence_time" value="{GRINGOTTS_ABSENCE_TIME}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_interest_absence">{L_GRINGOTTS_INTEREST_ABSENCE}</label><span>{L_GRINGOTTS_INTEREST_ABSENCE_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_interest_absence" id="gringotts_interest_absence" value="{GRINGOTTS_INTEREST_ABSENCE}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_interest_month">{L_GRINGOTTS_INTEREST_MONTH}</label><span>{L_GRINGOTTS_INTEREST_MONTH_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_interest_month" id="gringotts_interest_month" value="{GRINGOTTS_INTEREST_MONTH}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_lottery_price">{L_GRINGOTTS_LOTTERY_PRICE}</label><span>{L_GRINGOTTS_LOTTERY_PRICE_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_lottery_price" id="gringotts_lottery_price" value="{GRINGOTTS_LOTTERY_PRICE}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_monthly_yield_bs">{L_GRINGOTTS_MONTHLY_YIELD_BS}</label><span>{L_GRINGOTTS_MONTHLY_YIELD_BS_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_monthly_yield_bs" id="gringotts_monthly_yield_bs" value="{GRINGOTTS_MONTHLY_YIELD_BS}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_monthly_yield_cc">{L_GRINGOTTS_MONTHLY_YIELD_CC}</label><span>{L_GRINGOTTS_MONTHLY_YIELD_CC_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_monthly_yield_cc" id="gringotts_monthly_yield_cc" value="{GRINGOTTS_MONTHLY_YIELD_CC}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_monthly_yield_cp">{L_GRINGOTTS_MONTHLY_YIELD_CP}</label><span>{L_GRINGOTTS_MONTHLY_YIELD_CP_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_monthly_yield_cp" id="gringotts_monthly_yield_cp" value="{GRINGOTTS_MONTHLY_YIELD_CP}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_cost_withdrawal_bs">{L_GRINGOTTS_COST_WITHDRAWAL_BS}</label><span>{L_GRINGOTTS_COST_WITHDRAWAL_BS_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_cost_withdrawal_bs" id="gringotts_cost_withdrawal_bs" value="{GRINGOTTS_COST_WITHDRAWAL_BS}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_cost_withdrawal_cc">{L_GRINGOTTS_COST_WITHDRAWAL_CC}</label><span>{L_GRINGOTTS_COST_WITHDRAWAL_CC_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_cost_withdrawal_cc" id="gringotts_cost_withdrawal_cc" value="{GRINGOTTS_COST_WITHDRAWAL_CC}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_cost_withdrawal_cp">{L_GRINGOTTS_COST_WITHDRAWAL_CP}</label><span>{L_GRINGOTTS_COST_WITHDRAWAL_CP_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_cost_withdrawal_cp" id="gringotts_cost_withdrawal_cp" value="{GRINGOTTS_COST_WITHDRAWAL_CP}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_extract_rate_bs">{L_GRINGOTTS_EXTRACT_RATE_BS}</label><span>{L_GRINGOTTS_EXTRACT_RATE_BS_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_extract_rate_bs" id="gringotts_extract_rate_bs" value="{GRINGOTTS_EXTRACT_RATE_BS}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_extract_rate_cc">{L_GRINGOTTS_EXTRACT_RATE_CC}</label><span>{L_GRINGOTTS_EXTRACT_RATE_CC_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_extract_rate_cc" id="gringotts_extract_rate_cc" value="{GRINGOTTS_EXTRACT_RATE_CC}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_extract_rate_cp">{L_GRINGOTTS_EXTRACT_RATE_CP}</label><span>{L_GRINGOTTS_EXTRACT_RATE_CP_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_extract_rate_cp" id="gringotts_extract_rate_cp" value="{GRINGOTTS_EXTRACT_RATE_CP}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_lottery_rate">{L_GRINGOTTS_LOTTERY_RATE}</label><span>{L_GRINGOTTS_LOTTERY_RATE_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_lottery_rate" id="gringotts_lottery_rate" value="{GRINGOTTS_LOTTERY_RATE}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_monthly_rate_bs">{L_GRINGOTTS_MONTHLY_RATE_BS}</label><span>{L_GRINGOTTS_MONTHLY_RATE_BS_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_monthly_rate_bs" id="gringotts_monthly_rate_bs" value="{GRINGOTTS_MONTHLY_RATE_BS}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_monthly_rate_cc">{L_GRINGOTTS_MONTHLY_RATE_CC}</label><span>{L_GRINGOTTS_MONTHLY_RATE_CC_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_monthly_rate_cc" id="gringotts_monthly_rate_cc" value="{GRINGOTTS_MONTHLY_RATE_CC}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_monthly_rate_cp">{L_GRINGOTTS_MONTHLY_RATE_CP}</label><span>{L_GRINGOTTS_MONTHLY_RATE_CP_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_monthly_rate_cp" id="gringotts_monthly_rate_cp" value="{GRINGOTTS_MONTHLY_RATE_CP}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_rate_transfer_bs">{L_GRINGOTTS_RATE_TRANSFER_BS}</label><span>{L_GRINGOTTS_RATE_TRANSFER_BS_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_rate_transfer_bs" id="gringotts_rate_transfer_bs" value="{GRINGOTTS_RATE_TRANSFER_BS}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_rate_transfer_cc">{L_GRINGOTTS_RATE_TRANSFER_CC}</label><span>{L_GRINGOTTS_RATE_TRANSFER_CC_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_rate_transfer_cc" id="gringotts_rate_transfer_cc" value="{GRINGOTTS_RATE_TRANSFER_CC}"/>
+        </dl>
+        <dl>
+            <dt><label for="gringotts_rate_transfer_cp">{L_GRINGOTTS_RATE_TRANSFER_CP}</label><span>{L_GRINGOTTS_RATE_TRANSFER_CP_EXPLAIN}</span></dt>
+            <dd><input type="number" class="mask_nubmer" name="gringotts_rate_transfer_cp" id="gringotts_rate_transfer_cp" value="{GRINGOTTS_RATE_TRANSFER_CP}"/>
+        </dl>
+
+        <p class="submit-buttons">
+            <input class="button1" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+            <input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+        </p>
+
+        {S_FORM_TOKEN}
+    </fieldset>
+</form>
+<!-- INCLUDE overall_footer.html -->
